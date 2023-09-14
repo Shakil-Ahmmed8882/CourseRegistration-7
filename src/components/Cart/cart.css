@@ -1,0 +1,15 @@
+html{
+      scroll-behavior: smooth;
+}
+.cart {
+      height: 95vh;
+      position: sticky;
+      top: -90vh; /* Initial position off-screen */
+      z-index: 100;
+      top: 0; /* Stick to the top */
+      transition: top 3s ease-in-out; 
+      border-radius: 0 0 10px 10px;
+    }
+    
+    
+    

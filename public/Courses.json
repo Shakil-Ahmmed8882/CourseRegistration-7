@@ -1,0 +1,74 @@
+[
+      {
+          "id": 1,
+          "img": "https://i.ibb.co/7S9VCbp/Webdevlopment1.jpg",
+          "course_name": "Web Development 101",
+          "description": "Master the fundamentals of web development with Web Development 101. Gain essential skills for a bright future.",
+          "Price": 12000,
+          "credit": 4
+      },
+      {
+          "id": 2,
+          "img": "https://i.ibb.co/grHfL3j/javascript-mastery2.png",
+          "course_name": "JavaScript Mastery",
+          "description": "Achieve JavaScript mastery with this course. Unlock advanced skills and build powerful applications for your career.",
+          "Price": 15000,
+          "credit": 5
+      },
+      {
+          "id": 3,
+          "img": "https://i.ibb.co/d5v3GWk/react3.jpg",
+          "course_name": "React Fundamentals",
+          "description": "Dive into React fundamentals. Create dynamic web apps and stand out as a front-end developer.",
+          "Price": 11000,
+          "credit": 3
+      },
+      {
+          "id": 4,
+          "img": "https://i.ibb.co/pzYTNnc/css4.jpg",
+          "course_name": "CSS Techniques",
+          "description": "Explore advanced CSS techniques. Craft stunning designs and elevate your web development expertise.",
+          "Price": 13000,
+          "credit": 4
+      },
+      {
+          "id": 5,
+          "img": "https://i.ibb.co/qJvQ3KY/node-js5.jpg",
+          "course_name": "Node.js Essentials",
+          "description": "Master server-side JavaScript with Node.js Essentials. Build robust backends and boost your programming skills.",
+          "Price": 14000,
+          "credit": 4
+      },
+      {
+          "id": 6,
+          "img": "https://i.ibb.co/c25NJsS/react-native6.jpg",
+          "course_name": "React Native",
+          "description": "Craft mobile apps with React Native. Gain an edge in mobile development and create impactful applications.",
+          "Price": 16000,
+          "credit": 5
+      },
+      {
+          "id": 7,
+          "img": "https://i.ibb.co/f2C6CXX/database-design7.jpg",
+          "course_name": "Database Design",
+          "description": "Master the art of designing databases. Build scalable systems and become an indispensable developer.",
+          "Price": 12000,
+          "credit": 3
+      },
+      {
+          "id": 8,
+          "img": "https://i.ibb.co/LSYfxkh/UXUI-8jfif.jpg",
+          "course_name": "UX/UI Design Principles",
+          "description": "Learn UX/UI design principles. Create user-centric interfaces and enhance the digital world with your skills.",
+          "Price": 11000,
+          "credit": 4
+      },
+      {
+          "id": 9,
+          "img": "https://i.ibb.co/SNGFTfS/fullstack9.jpg",
+          "course_name": "Full Stack Development",
+          "description": "Become a full-stack developer expert. Bridge the gap between front-end and back-end and excel in web development.",
+          "Price": 17000,
+          "credit": 5
+      }
+  ]
