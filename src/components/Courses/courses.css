@@ -1,6 +1,6 @@
 .courses-container {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Use auto-fill instead of auto-fit */
-      gap: 25px; /* Add a gap between grid items for spacing */
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 25px; 
     }
     
