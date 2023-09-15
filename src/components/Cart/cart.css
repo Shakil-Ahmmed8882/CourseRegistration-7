@@ -1,66 +1,62 @@
-html{
-      scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 .bg-img {
-      /* background-image: url('../../.././img/photo-1524055988636-436cfa46e59e.aaaavif.avif'); */
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: left;
-      position: relative;
-      z-index: 1; 
-      background-color: #F3F3F3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: left;
+  position: relative;
+  z-index: 1;
+  background-color: #f3f3f3;
+}
 
-    }
-    
 /* setting the blur style here */
-    .bg-img::before {
-      content: "";
-      background-image: url('../../.././img/photo-1524055988636-436cfa46e59e.aaaavif.avif');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: left;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      filter: blur(30px);
-      z-index: -1; 
-    }
-    
-    /* Your content styles */
+.bg-img::before {
+  content: "";
+  background-image: url("../../.././img/photo-1524055988636-436cfa46e59e.aaaavif.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(30px);
+  z-index: -1;
+}
+
+/* Your content styles */
 
 .cart {
-      height: 90vh;
-      position: sticky;
-      top: -90vh; 
-      z-index: 100;
-      top: 20px; 
-      padding: 10px;
-      transition: top 3s ease-in-out; 
-      border-radius: 10px;
-      overflow: auto;
-    }
-
-.cart-list{
-    padding: 10px;
+  height: 90vh;
+  position: sticky;
+  top: -90vh;
+  z-index: 100;
+  top: 20px;
+  padding: 10px;
+  transition: top 3s ease-in-out;
+  border-radius: 10px;
+  overflow: auto;
 }
 
-.cart-list li{
-      background-color: rgba(255, 255, 255, 0.226);
-      padding: 10px;
-      border-radius:3px;
-      border-left: 4px solid rgba(255, 255, 255, 0.547);
-      margin-block: 10px;
-      color: #fff;
-      transition: all 1.s linear;
-
+.cart-list {
+  padding: 10px;
 }
-    @media only screen and (max-width: 600px) {
-      .bg-img::before{
-        background-image: none; /* Remove the background image */
-      }
-    }
 
+.cart-list li {
+  background-color: rgba(255, 255, 255, 0.226);
+  padding: 10px;
+  border-radius: 3px;
+  border-left: 4px solid rgba(255, 255, 255, 0.547);
+  margin-block: 10px;
+  color: #fff;
+  transition: all 1s linear;
+}
+@media only screen and (max-width: 600px) {
+  .bg-img::before {
+    background-image: none; /* Remove the background image */
+  }
+}

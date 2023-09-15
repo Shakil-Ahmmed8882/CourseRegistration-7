@@ -35,16 +35,19 @@ function App() {
     );
 
     if (doubleSelectedCourse) {
-      toast.warning("You can't enroll twice in the same course. Please choose a different one. 😊👍", {
-        position: "top-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-      });
+      toast.warning(
+        "You can't enroll twice in the same course. Please choose a different one. 😊👍",
+        {
+          position: "top-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        }
+      );
     } else {
       let totalCreditHours = course.credit;
       let CollectedPrice = course.Price;
@@ -56,7 +59,7 @@ function App() {
       if (totalCreditHours <= 20) {
         // Calculate remaining credits after updating the cart
         const remainingCredits = 20 - totalCreditHours;
-        toast.success('Enrolled', {
+        toast.success("Enrolled", {
           position: "top-right",
           autoClose: 3000,
           hideProgressBar: false,
@@ -65,7 +68,7 @@ function App() {
           draggable: true,
           progress: undefined,
           theme: "colored",
-          });
+        });
         // Update the state with the remaining credits
         setRemainingCreditHours(remainingCredits);
         setTotalPrice(CollectedPrice);
@@ -91,7 +94,7 @@ function App() {
   return (
     <>
       <div className="text-center content pb-16">
-        <header className="md:hidden">
+        <header className="pb-5 md:hidden">
           <Header
             selectedCourse={selectedCourse}
             cartCreditHours={cartCreditHours}
