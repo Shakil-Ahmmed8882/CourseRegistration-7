@@ -55,6 +55,7 @@ html{
       border-left: 4px solid rgba(255, 255, 255, 0.547);
       margin-block: 10px;
       color: #fff;
+      transition: all 1.s linear;
 
 }
     @media only screen and (max-width: 600px) {
