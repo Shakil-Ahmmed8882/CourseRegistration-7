@@ -14,7 +14,7 @@ const Cart = ({selectedCourse,cartCreditHours,remainingCreditHours,totalPrice}) 
                         }
                         
                   </ul>
-                  <hr className='py-2 mt-6' />
+                  <hr className='py-2 mt-2' />
                   
                   <div className='text-white space-y-1 pb-4 '>
                   <li>Total Credit Hour : <strong>{cartCreditHours}</strong></li>
