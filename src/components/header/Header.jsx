@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import '../Cart/cart.css'
 const Header = ({selectedCourse}) => {
-      console.log(selectedCourse)
   return (
     <div>
       <div className="navbar bg-base-100 fixed shadow-sm">

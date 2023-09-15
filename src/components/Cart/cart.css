@@ -37,7 +37,7 @@ html{
       position: sticky;
       top: -90vh; 
       z-index: 100;
-      top: 10px; 
+      top: 20px; 
       padding: 10px;
       transition: top 3s ease-in-out; 
       border-radius: 10px;
@@ -52,7 +52,7 @@ html{
       background-color: rgba(255, 255, 255, 0.226);
       padding: 10px;
       border-radius:3px;
-      border-left: 4px solid rgba(255, 170, 0, 0.854);
+      border-left: 4px solid rgba(255, 255, 255, 0.547);
       margin-block: 10px;
       color: #fff;
 

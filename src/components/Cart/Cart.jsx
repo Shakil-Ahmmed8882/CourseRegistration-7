@@ -1,9 +1,10 @@
 import './cart.css'
 import PropTypes from 'prop-types'
-const Cart = ({selectedCourse}) => {
+const Cart = ({selectedCourse,cartCreditHours,remainingCreditHours,totalPrice}) => {
+
       return (
             <div className="cart cart-sticky text-left bg-[#05bfdbb3] w-72 hidden md:block">
-                  <h1 className='py-3 text-1xl text-white font-bold'>Credit Hour Remaining 7 hr</h1>
+                  <h1 className='py-3 text-1xl text-white font-bold'>Credit Hour Remaining {remainingCreditHours} hr</h1>
                   <hr className=' mt-2 py-1'/>
                   <div>
                   <h1 className='text-2xl font-bold text-white'>Course Name</h1>
@@ -16,8 +17,8 @@ const Cart = ({selectedCourse}) => {
                   <hr className='py-2 mt-6' />
                   
                   <div className='text-white space-y-1 pb-4 '>
-                  <li>Total Credit Hour : <strong>12</strong></li>
-                  <li>Total Price: <strong>434 USD</strong></li>
+                  <li>Total Credit Hour : <strong>{cartCreditHours}</strong></li>
+                  <li>Total Price: <strong>{totalPrice} USD</strong></li>
                   </div>
                   </div>
             </div>
@@ -26,7 +27,10 @@ const Cart = ({selectedCourse}) => {
 };
 
 Cart.propTypes = {
-          selectedCourse: PropTypes.string.isRequired, 
+          selectedCourse: PropTypes.string.isRequired,      
+          cartCreditHours:PropTypes.number.isRequired,
+          remainingCreditHours:PropTypes.number.isRequired,
+          totalPrice:PropTypes.number.isRequired
 }
     
 
