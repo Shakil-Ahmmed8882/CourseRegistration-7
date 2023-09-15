@@ -5,7 +5,7 @@ import '../Courses/courses.css';
 
 const Courses = ({ availableCourses, addToCart }) => {
   return (
-    <div className="flex-1 courses-container">
+    <div className="flex-1 courses-container pt-16 lg:pt-0">
       {availableCourses.map(course => (
         <Course key={course.id} course={course} addToCart={addToCart} />
       ))}

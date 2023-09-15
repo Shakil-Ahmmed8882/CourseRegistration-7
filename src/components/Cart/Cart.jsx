@@ -14,12 +14,10 @@ const Cart = ({selectedCourse}) => {
                         
                   </ul>
                   <hr className='py-2 mt-6' />
+                  
                   <div className='text-white space-y-1 pb-4 '>
-
                   <li>Total Credit Hour : <strong>12</strong></li>
                   <li>Total Price: <strong>434 USD</strong></li>
-                        
-                        
                   </div>
                   </div>
             </div>
